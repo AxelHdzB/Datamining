@@ -8,8 +8,6 @@ data = pd.read_csv("vgchartz-2024.csv")
 # Elimina columna img
 data = data.drop('img', axis=1)
 
-# Elimina columna release_date
-data = data.drop('release_date', axis=1)
 
 # Elimina columna last_update
 data = data.drop('last_update', axis=1)
